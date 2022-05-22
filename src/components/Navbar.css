@@ -4,7 +4,7 @@
   z-index: 10;
   background-color: white;
   padding: -28px;
-  padding-left: 11.7vw;
+  padding-left: 11.5vw;
   padding-right: 12vw;
   display: flex;
   align-items: center;
@@ -111,5 +111,14 @@
     max-height: 130px;
     position: relative;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .NAV {
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
   }
 }

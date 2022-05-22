@@ -36,6 +36,7 @@
 
 @media only screen and (max-width: 450px) {
   .app_banner {
+    min-height: 1100px;
     top: -200px;
   }
 }

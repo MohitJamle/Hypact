@@ -1,0 +1,140 @@
+.Comp2 {
+  background-color: #00cfe9;
+  padding: 25px 0;
+  padding-top: 28px;
+  margin: -2px;
+}
+
+.Comp2_ {
+  margin: 0 20px;
+}
+
+.Comp2_title {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Comp2_titleHeading {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Comp2_title button {
+  padding: 21px 40px;
+  width: 31.2vw;
+  max-width: 312px;
+  background-color: #fff;
+  text-align: center;
+  color: #00cfe9;
+  font-size: 16px;
+  line-height: 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+  margin-top: 6px;
+}
+
+.comp3_content {
+  max-width: 1168px;
+  margin: auto;
+  padding: 30px 5px;
+  display: flex;
+}
+
+.comp3_img img {
+  max-width: 36.2vw;
+}
+
+.comp3_acordion {
+  padding: 6vw 30px;
+}
+
+.comp3_heading {
+  max-width: 600px;
+  max-height: 250px;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+.comp3_heading_text {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: normal;
+  font-family: montserrat, sans-serif;
+}
+
+.comp3_title {
+  font-family: montserrat, sans-serif;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: 500px;
+  color: #747474;
+  margin-top: 30px;
+  letter-spacing: 0.3px;
+}
+
+.comp5_Heading {
+  max-width: 900px;
+  margin: auto;
+}
+
+.comp3_fl_heading {
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.comp5 {
+  margin: 10px -2px;
+  padding: 55px 0;
+  padding-bottom: 40px;
+}
+
+.fl_heading_text strong {
+  font-weight: 900;
+  font-size: 40px;
+  color: #3f3f3f;
+}
+
+@media only screen and (max-width: 700px) {
+  .Comp2_title {
+    flex-direction: column;
+  }
+  .Comp2_title button {
+    max-width: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .comp3_img {
+    width: fit-content;
+    margin: auto;
+  }
+  .comp3_heading {
+    max-width: 370px;
+    width: 100%;
+  }
+  .comp3Acordion {
+    max-width: 350px;
+    margin: auto;
+  }
+  .comp3_img img {
+    min-width: 330px;
+    max-width: 48vw;
+  }
+  .comp3_title {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .comp3_content {
+    flex-direction: column;
+  }
+}

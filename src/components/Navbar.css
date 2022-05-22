@@ -1,0 +1,115 @@
+.NAV {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  padding: -28px;
+  padding-left: 11.7vw;
+  padding-right: 12vw;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.navbar {
+  background-color: white;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  /* overflow: hidden; */
+  max-width: 100%;
+}
+
+/*  */
+
+.navbar-brand {
+  min-height: 100px;
+  min-width: 200px;
+}
+.brandName {
+  margin: 0;
+  padding: 0%;
+  height: 6.8vw;
+  position: absolute;
+  top: 0px;
+}
+/*  */
+
+.navbar-nav {
+  color: black;
+  font-size: 14.5px;
+  letter-spacing: 0.6px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+
+.navbar-nav a {
+  padding-right: 55px;
+}
+
+.nav-item a {
+  padding-right: 55px;
+}
+
+.nav-link strong {
+  color: black;
+  margin-right: 20px;
+}
+
+#basic-navbar-nav {
+  width: max-content;
+}
+
+.dropdown-item {
+  color: rgb(0, 0, 0);
+  font-size: 14.5px;
+  padding-right: 100px;
+  letter-spacing: 0.6px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+
+.me-auto strong {
+  color: black;
+}
+
+.dropdown-menu {
+  width: 290px;
+  padding-right: 30px;
+  margin-top: -1rem;
+}
+
+.me-auto {
+  margin-left: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-nav-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.navbar-toggler-icon {
+  width: 13em;
+  height: 1em;
+  background-size: 100%;
+}
+.navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255);
+}
+
+@media only screen and (max-width: 991px) {
+  .NAV {
+    min-height: 200px;
+  }
+  .brandName {
+    height: fit-content;
+    max-height: 130px;
+    position: relative;
+    margin: auto;
+  }
+}

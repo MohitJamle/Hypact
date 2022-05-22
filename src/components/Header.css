@@ -1,0 +1,139 @@
+.header {
+  padding: 100px 0vw;
+  position: relative;
+  margin: auto;
+  margin-left: 15px;
+  margin-top: 120px;
+  min-height: 87vh;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  color: white;
+}
+
+.header_container {
+  max-width: 1130px;
+  min-height: 60vh;
+  padding: 2px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_box {
+  margin-right: 30px;
+}
+
+.header_box button {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  background: #47c9ff;
+  border: 1px solid #3bbdf3;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.header_box button samp {
+  font-size: 15px;
+  margin-left: 5px;
+  letter-spacing: -2px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.header_box span {
+  text-align: left;
+  letter-spacing: 0.2px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  line-height: 60px;
+}
+
+.header_box p {
+  margin-top: 24px;
+  font-size: 26px;
+  letter-spacing: 0.3px;
+  line-height: 29px;
+  font-weight: 200;
+}
+
+.form {
+  min-width: fit-content;
+  max-width: 310px;
+  min-height: 200px;
+  display: flex;
+  margin: auto;
+  margin-right: 15px;
+  margin-top: 17px;
+  flex-direction: column;
+}
+
+.form input {
+  width: 100%;
+  height: 44px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: montserrat, sans-serif;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  width: 100%;
+  font-size: 15px;
+  resize: none;
+  font-family: montserrat, sans-serif;
+  padding: 10px 15px;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  margin: 6px 0px;
+  padding: 15px 25px;
+  border: 1px solid #3bbdf3;
+  background-color: #47c9ff;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  transition: all 0.2s linear !important;
+}
+
+.form button:hover {
+  border: 1px solid #e65c23;
+  background-color: #e65c23;
+}
+
+@media only screen and (max-width: 980px) {
+  .header {
+    margin-top: 30px;
+  }
+  .header_box span {
+    max-width: 200px;
+  }
+  .form {
+    min-width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .header_container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .form {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Body.css";
-import Comp1, { Comp2, Comp3, Comp5 } from "./Comp";
+import Comp1, { Comp2, Comp3, Comp5, Comp6, Comp7 } from "./Comp";
 
 const Body = () => {
   return (
@@ -17,8 +17,9 @@ const Body = () => {
           marginTop: "-30px",
         }}
       ></div>
-
       <Comp5 />
+      <Comp6 />
+      <Comp7 />
     </div>
   );
 };

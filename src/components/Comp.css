@@ -81,14 +81,34 @@
 .comp5_Heading {
   max-width: 900px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
-.comp3_fl_heading {
+.comp5_fl_heading {
   text-align: center;
   font-family: montserrat, sans-serif;
   font-size: 40px;
   font-weight: 200;
   line-height: normal;
+}
+
+.ImageListgrid {
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin: auto;
+  align-items: center;
+  grid-gap: 5px 20px;
+  justify-content: space-between;
+}
+
+.Imageslider {
+  position: fixed;
+  top: 18%;
+  width: 100%;
+  margin: auto;
 }
 
 .comp5 {
@@ -100,7 +120,93 @@
 .fl_heading_text strong {
   font-weight: 900;
   font-size: 40px;
+  font-family: montserrat, sans-serif;
   color: #3f3f3f;
+}
+
+.comp6 {
+  width: 100%;
+  background-color: #fafafa;
+  margin-right: -5px;
+  margin-left: -0px;
+  margin-top: 35px;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+.comp6_content {
+  max-width: 1195px;
+  margin: auto;
+}
+
+.comp6_heading {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  line-height: normal;
+  font-family: montserrat, sans-serif;
+  color: #3f3f3f;
+  overflow-wrap: break-word;
+  margin-bottom: 35px;
+}
+
+.comp6_grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 13px;
+}
+
+.comp6_grid_content {
+  border: 1px solid #ebebeb;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comp7 {
+  margin-top: 65px;
+  font-family: montserrat, sans-serif;
+}
+
+.comp7_heading {
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 40px;
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  color: #3f3f3f;
+  overflow-wrap: break-word;
+  line-height: normal;
+}
+.comp7_heading b {
+  font-weight: 900;
+}
+
+.comp7_grid {
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.cardComp {
+  width: 100%;
+  margin: 15px 10px;
+}
+
+.comp7_grid_content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 615px) {
+  .ImageListgrid {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -111,7 +217,17 @@
     max-width: none;
     width: 100%;
   }
+  .comp6_grid {
+    flex-direction: column;
+  }
+  .comp6_grid_content {
+    max-width: 400px;
+    margin: auto;
+    border-left: none;
+    border-right: none;
+  }
 }
+
 @media only screen and (max-width: 770px) {
   .comp3_img {
     width: fit-content;
@@ -126,7 +242,7 @@
     margin: auto;
   }
   .comp3_img img {
-    min-width: 330px;
+    min-width: 230px;
     max-width: 48vw;
   }
   .comp3_title {
@@ -136,5 +252,42 @@
   }
   .comp3_content {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .card {
+    margin-right: 0px;
+  }
+  .cardComp {
+    width: fit-content;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .comp7_grid_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .ImageListgrid {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .Imageslider {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .comp7_grid_content {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 10px;
   }
 }

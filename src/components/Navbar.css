@@ -54,11 +54,13 @@
 
 .nav-link strong {
   color: black;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #basic-navbar-nav {
   width: max-content;
+  position: relative;
+  left: 10px;
 }
 
 .dropdown-item {
@@ -115,6 +117,14 @@
 }
 
 @media only screen and (max-width: 340px) {
+  .brandName {
+    width: 100%;
+  }
+
+  /* .navbar div {
+    width: min-content;
+  } */
+
   .NAV {
     width: 100%;
     overflow: hidden;

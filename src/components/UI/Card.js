@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const CardComp = (props) => {
   return (
     <div className="cardComp">
-      <Card style={{ width: "100%", maxWidth: "360px", margin: "0" }}>
+      <Card style={{ width: "100%", maxWidth: "360px", marginBottom: "20px" }}>
         <a href={props.link}>
           <Card.Img variant="top" src={props.img} />
         </a>

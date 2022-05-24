@@ -10,12 +10,12 @@
   align-items: center;
   width: 100%;
 }
-.navbar {
+.NAV .navbar {
   background-color: white;
   width: 100%;
 }
 
-.container {
+.NAV .container {
   position: relative;
   /* overflow: hidden; */
   max-width: 100%;
@@ -23,11 +23,11 @@
 
 /*  */
 
-.navbar-brand {
+.NAV .navbar-brand {
   min-height: 100px;
   min-width: 200px;
 }
-.brandName {
+.NAV .brandName {
   margin: 0;
   padding: 0%;
   height: 6.8vw;
@@ -36,7 +36,7 @@
 }
 /*  */
 
-.navbar-nav {
+.NAV .navbar-nav {
   color: black;
   font-size: 14.5px;
   letter-spacing: 0.6px;
@@ -44,26 +44,26 @@
   font-weight: 900;
 }
 
-.navbar-nav a {
+.NAV .navbar-nav a {
   padding-right: 55px;
 }
 
-.nav-item a {
+.NAV .nav-item a {
   padding-right: 55px;
 }
 
-.nav-link strong {
+.NAV .nav-link strong {
   color: black;
   margin-right: 10px;
 }
 
-#basic-navbar-nav {
+.NAV #basic-navbar-nav {
   width: max-content;
   position: relative;
   left: 10px;
 }
 
-.dropdown-item {
+.NAV .dropdown-item {
   color: rgb(0, 0, 0);
   font-size: 14.5px;
   padding-right: 100px;
@@ -72,35 +72,35 @@
   font-weight: 900;
 }
 
-.me-auto strong {
+.NAV .me-auto strong {
   color: black;
 }
 
-.dropdown-menu {
+.NAV .dropdown-menu {
   width: 290px;
   padding-right: 30px;
   margin-top: -1rem;
 }
 
-.me-auto {
+.NAV .me-auto {
   margin-left: auto;
 }
 
-.dropdown:hover .dropdown-menu {
+.NAV .dropdown:hover .dropdown-menu {
   display: flex;
   flex-direction: column;
 }
 
-.basic-nav-dropdown:hover .dropdown-menu {
+.NAV .basic-nav-dropdown:hover .dropdown-menu {
   display: flex;
 }
 
-.navbar-toggler-icon {
+.NAV .navbar-toggler-icon {
   width: 13em;
   height: 1em;
   background-size: 100%;
 }
-.navbar-light .navbar-toggler {
+.NAV .navbar-light .navbar-toggler {
   border-color: rgba(255, 255, 255);
 }
 
@@ -108,7 +108,7 @@
   .NAV {
     min-height: 200px;
   }
-  .brandName {
+  .NAV .brandName {
     height: fit-content;
     max-height: 130px;
     position: relative;
@@ -117,7 +117,7 @@
 }
 
 @media only screen and (max-width: 340px) {
-  .brandName {
+  .NAV .brandName {
     width: 100%;
   }
 

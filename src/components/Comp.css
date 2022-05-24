@@ -168,6 +168,7 @@
 .comp7 {
   margin-top: 65px;
   font-family: montserrat, sans-serif;
+  margin-bottom: 210px;
 }
 
 .comp7_heading {
@@ -186,7 +187,7 @@
 }
 
 .comp7_grid {
-  max-width: 1170px;
+  max-width: 1160px;
   margin: auto;
   margin-top: 35px;
 }
@@ -200,6 +201,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 615px) {

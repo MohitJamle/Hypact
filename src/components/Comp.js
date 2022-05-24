@@ -215,7 +215,7 @@ export const Comp7 = () => {
       id: "1",
     },
     {
-      link: "https://www.hypact.io/choosing-the-precise-technology-for-your-mobile-app/",
+      link: "https://www.hypact.io/2019-custom-software-development-trends-that-are-taking-the-market-by-storm/",
       img: "https://www.hypact.io/wp-content/uploads/2019/05/1_jdvQUAtW-sxFzI7QGDS6QA-300x144.png",
       title:
         "2019 Custom Software Development Trends that are taking the Market by Storm",
@@ -224,7 +224,7 @@ export const Comp7 = () => {
       id: "2",
     },
     {
-      link: "https://www.hypact.io/choosing-the-precise-technology-for-your-mobile-app/",
+      link: "https://www.hypact.io/custom-software-solutions-a-way-to-grow-your-business/",
       img: "https://www.hypact.io/wp-content/uploads/2019/05/benifit-of-custom-software-development_orig-300x147.jpg",
       title: "Custom Software Solutions- A Way to Grow Your Business",
       description:

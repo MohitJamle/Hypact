@@ -1,0 +1,122 @@
+.footer {
+  background-color: #2a3338;
+  color: #fff;
+  padding: 30px 0;
+  padding-bottom: 2px;
+  margin-bottom: 1px;
+}
+
+.footer_content {
+  background-color: #2a3338;
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 58px;
+  display: flex;
+}
+
+.footer_links {
+  min-width: 293px;
+}
+
+.footer strong {
+  text-transform: none;
+  font-weight: 400;
+  background: #2a3338;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin: 0 0;
+}
+
+.footer_heading {
+  text-align: left;
+  font-size: 20px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  max-width: 300px;
+  margin-bottom: 0;
+}
+
+.footer .navbar {
+  width: 100%;
+}
+
+.footer .nav-link {
+  padding-top: 0.1rem;
+  padding-bottom: 0.6rem;
+  width: 100%;
+}
+
+.footer .dropdown-toggle::after {
+  display: none;
+}
+
+.footer .dropdown-menu {
+  background-color: transparent;
+  padding: 0;
+}
+
+.footer #basic-nav-dropdown {
+  color: white;
+  padding-top: 5px;
+}
+
+.footer_form {
+  min-width: 262px;
+}
+
+.footer_form .form {
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.footer_form .form input {
+  width: 100%;
+}
+
+.footer_form .form textarea {
+  width: 100%;
+}
+
+.footer_form .form button {
+  width: 100%;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.testimonials {
+  margin: 0 30px;
+  max-width: 260px;
+}
+
+.testimonials p {
+  line-height: 28px;
+  overflow-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.letsTalk {
+  margin-left: 2px;
+  max-width: 200px;
+}
+
+.letsTalk p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  margin-top: 0;
+  justify-content: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.letsTalk p a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+}

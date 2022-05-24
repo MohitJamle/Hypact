@@ -38,6 +38,10 @@
   font-family: montserrat, sans-serif;
 }
 
+.header .button {
+  width: fit-content;
+}
+
 .header_box button samp {
   font-size: 15px;
   margin-left: 5px;
@@ -122,24 +126,21 @@
   .header {
     margin-top: 30px;
   }
+
+  .header .button {
+    margin: auto;
+  }
+
   .header_box span {
     max-width: 200px;
   }
   .form {
     min-width: fit-content;
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
     margin-top: 30px;
   }
   .header_container {
     flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 390px) {
-  .form {
-    margin-right: 2vw;
-    margin-left: 2vw;
   }
 }

@@ -4,8 +4,8 @@ import "./Footer.css";
 
 const FooterLinks = (
   <div className="footer_links">
-    <h3 class="footer_heading">
-      <span class="fl-heading-text">Quick Links</span>
+    <h3 className="footer_heading">
+      <span className="fl-heading-text">Quick Links</span>
       <hr
         style={{
           width: "60px",
@@ -104,8 +104,8 @@ const FooterLinks = (
 
 const ContactForm = (
   <div className="footer_form">
-    <h3 class="footer_heading">
-      <span class="fl-heading-text">Quick Contact</span>
+    <h3 className="footer_heading">
+      <span className="fl-heading-text">Quick Contact</span>
       <hr
         style={{
           width: "60px",
@@ -127,8 +127,8 @@ const ContactForm = (
 
 const Testimonials = (
   <div className="testimonials">
-    <h3 class="footer_heading">
-      <span class="fl-heading-text">Testimonials</span>
+    <h3 className="footer_heading">
+      <span className="fl-heading-text">Testimonials</span>
       <hr
         style={{
           width: "60px",
@@ -151,8 +151,8 @@ const Testimonials = (
 
 const LetsTalk = (
   <div className="letsTalk">
-    <h3 class="footer_heading">
-      <span class="fl-heading-text">Lets Talk</span>
+    <h3 className="footer_heading">
+      <span className="fl-heading-text">Lets Talk</span>
       <hr
         style={{
           width: "60px",
@@ -164,7 +164,7 @@ const LetsTalk = (
     </h3>
     <div style={{ display: "flex" }}>
       <i
-        class="fa fa-phone"
+        className="fa fa-phone"
         style={{
           fontSize: "20px",
           marginTop: "4px",
@@ -176,7 +176,7 @@ const LetsTalk = (
     </div>
     <div style={{ display: "flex" }}>
       <i
-        class="fa fa-envelope"
+        className="fa fa-envelope"
         style={{
           fontSize: "20px",
           marginTop: "4px",
@@ -189,7 +189,7 @@ const LetsTalk = (
     </div>
     <div style={{ display: "flex" }}>
       <i
-        class="fa fa-home"
+        className="fa fa-home"
         style={{
           fontSize: "20px",
           marginTop: "0px",
@@ -226,7 +226,7 @@ const Footer = () => {
           Copyright © 2020 | All rights reserved
           <a href="https://www.linkedin.com/company/hypact-io/">
             <i
-              class="fa fa-linkedin-square"
+              className="fa fa-linkedin-square"
               style={{ fontSize: "20px", color: "white", marginLeft: "16px" }}
             ></i>
           </a>

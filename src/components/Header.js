@@ -15,11 +15,13 @@ const Header = () => {
             intense knowledge of trends and quality-driven delivery model to
             provide reliable, end-to-end cloud solutions.
           </p>
-          <button>
-            <a href="/about-us">
-              LEARN MORE <samp>&#9642;&#9642;&#9642; </samp>
-            </a>
-          </button>
+          <div className="button">
+            <button>
+              <a href="/about-us">
+                LEARN MORE <samp>&#9642;&#9642;&#9642; </samp>
+              </a>
+            </button>
+          </div>
         </div>
         <form className="form">
           <input type="text" placeholder="Your Name" />

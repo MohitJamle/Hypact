@@ -31,7 +31,7 @@ const FooterLinks = (
           <Nav.Link href="/">
             <strong>Home</strong>
           </Nav.Link>
-          <strong>
+          <strong className="autoreniv">
             <NavDropdown
               href="/about-us"
               title="About Us  ➤"
@@ -55,7 +55,7 @@ const FooterLinks = (
               </NavDropdown.Item>
             </NavDropdown>
           </strong>
-          <strong>
+          <strong className="autoreniv">
             <NavDropdown title="Services ➤" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href="/web-application-development/"
@@ -216,6 +216,7 @@ const Footer = () => {
             fontFamily: "montserrat,sans-serif",
             maxWidth: "894px",
             marginBottom: "13px",
+            marginRight: "10px",
             color: "#fff",
             fontWeight: "400",
             fontSize: "14px",

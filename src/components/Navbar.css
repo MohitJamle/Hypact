@@ -10,12 +10,12 @@
   align-items: center;
   width: 100%;
 }
-.NAV .navbar {
+.navbar {
   background-color: white;
   width: 100%;
 }
 
-.NAV .container {
+.container {
   position: relative;
   /* overflow: hidden; */
   max-width: 100%;
@@ -23,11 +23,11 @@
 
 /*  */
 
-.NAV .navbar-brand {
+.navbar-brand {
   min-height: 100px;
   min-width: 200px;
 }
-.NAV .brandName {
+.brandName {
   margin: 0;
   padding: 0%;
   height: 6.8vw;
@@ -36,7 +36,7 @@
 }
 /*  */
 
-.NAV .navbar-nav {
+.navbar-nav {
   color: black;
   font-size: 14.5px;
   letter-spacing: 0.6px;
@@ -44,15 +44,15 @@
   font-weight: 900;
 }
 
-.NAV .navbar-nav a {
+.navbar-nav a {
   padding-right: 55px;
 }
 
-.NAV .nav-item a {
+.nav-item a {
   padding-right: 55px;
 }
 
-.NAV .nav-link strong {
+.nav-link strong {
   color: black;
   margin-right: 10px;
 }
@@ -72,7 +72,7 @@
   font-weight: 900;
 }
 
-.NAV .me-auto strong {
+.me-auto strong {
   color: black;
 }
 
@@ -82,7 +82,7 @@
   margin-top: -1rem;
 }
 
-.NAV .me-auto {
+.me-auto {
   margin-left: auto;
 }
 
@@ -95,12 +95,12 @@
   display: flex;
 }
 
-.NAV .navbar-toggler-icon {
+.navbar-toggler-icon {
   width: 13em;
   height: 1em;
   background-size: 100%;
 }
-.NAV .navbar-light .navbar-toggler {
+.navbar-light .navbar-toggler {
   border-color: rgba(255, 255, 255);
 }
 
@@ -108,7 +108,7 @@
   .NAV {
     min-height: 200px;
   }
-  .NAV .brandName {
+  .brandName {
     height: fit-content;
     max-height: 130px;
     position: relative;
@@ -117,7 +117,7 @@
 }
 
 @media only screen and (max-width: 340px) {
-  .NAV .brandName {
+  .brandName {
     width: 100%;
   }
 

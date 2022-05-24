@@ -55,11 +55,13 @@
 .footer .dropdown-menu {
   background-color: transparent;
   padding: 0;
+  position: relative;
 }
 
 .footer #basic-nav-dropdown {
   color: white;
   padding-top: 5px;
+  width: 80%;
 }
 
 .footer_form {
@@ -70,6 +72,7 @@
   margin: 0;
   padding: 0;
   align-items: flex-start;
+  width: 100%;
 }
 
 .footer_form .form input {
@@ -101,6 +104,7 @@
 .letsTalk {
   margin-left: 2px;
   max-width: 200px;
+  margin-right: 10px;
 }
 
 .letsTalk p {
@@ -119,4 +123,78 @@
   margin-left: 15px;
   font-weight: 400;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 380px) {
+  .autoreniv {
+    width: min-content;
+  }
+
+  .footer .dropdown {
+    width: min-content;
+    margin: 0;
+  }
+  .footer #basic-nav-dropdown {
+    width: min-content;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .footer_links {
+    max-width: 370px;
+    margin: auto;
+  }
+  .footer_form {
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .testimonials {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .letsTalk {
+    max-width: 370px;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .footer_content {
+    flex-direction: column;
+  }
+  .footer_links {
+    width: 370px;
+    margin: auto;
+  }
+  .footer_form {
+    width: 370px;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .testimonials {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .letsTalk {
+    max-width: 370px;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1165px) {
+  .footer_content {
+    margin: auto 10px;
+    margin-bottom: 58px;
+  }
 }
